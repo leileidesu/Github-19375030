@@ -1,12 +1,166 @@
-<!DOCTYPE html>
-<head>     
+<!doctype html>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
-    <meta name="keywords" content="北航软件工程基础">
-    <title>Lab01 任务一</title>
-</head>   
+    <title>百度一下，你就知道</title>
+    <script src="附件/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="附件/style.css">
+</head>
+</head>
+
 <body>
-    <h1>Lab01 任务一</h1>
-    <h2>姓名</h2>
+    <div class="web-outer">
+        <div id="head">
+            <div id="top-left">
+                <a href="http://news.baidu.com/" target="_blank">新闻</a>
+                <a href="https://www.hao123.com" target="_blank">hao123</a>
+                <a href="http://map.baidu.com" target="_blank">地图</a>
+                <a href="https://live.baidu.com/" target="_blank">直播</a>
+                <a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a>
+                <a href="http://tieba.baidu.com" target="_blank">贴吧</a>
+                <a href="http://xueshu.baidu.com" target="_blank">学术</a>
+            </div>
+            <div id="top-right">
+                <div id="top-login-btn">登录</div>
+            </div>
+        </div>
+        <div id="outer-mid">
+            <div id="mid">
+                <div id="logo-outer">
+                    <figure id="logo" title="点击一下，了解更多"></figure>
+                </div>
+                <div id="search-div">
+                    <div id="search-input">
+                        <input>
+                        <div id="search-btn">百度一下</div>
+                    </div>
+                </div>
+                <!--
+                    <div id="hot-title">百度热榜</div>
+                    
+                        <ul id="hot">
+                        <li>
+                            <span class="hot-order hot-order-1">1</span><span class="hot-content">延迟退休实施原则公布</span><span class="hot-tag hot">热</span>
+                        </li>
+                        <li>
+                            <span class="hot-order">4</span><span class="hot-content">驻港公署:干预香港事务是痴心妄想</span>
+                        </li>
+                        
+                    </ul>
+                -->
+
+            </div>
+        </div>
+        <div class="hot">
+            <div class="hot-title">
+                <div class="hot-title-icon">
+                    <img src="img/game.png">
+                </div>
+                热榜之《19375030》分榜
+                <div class="hot-title-more">
+                    <span>更多</span>
+                    <img src="img/right.png">
+                </div>
+            </div>
+            <div class="hot-lists">
+
+                <table style="height: 100%;width:100% ">
+                    <tr>
+                        <td width="10%" class="td1" style="color: red;">1</td>
+                        <td width="40%" style="color: black;">原神</td>
+                        <td width="40%" align="right">324853</td>
+                        <td width="10%"
+                            style="background-image: url(img/up.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1" style="color: orange;">2</td>
+                        <td width="40%" style="color: black;">香肠派对</td>
+                        <td width="40%" align="right">168931</td>
+                        <td width="10%"
+                            style="background-image: url(img/up.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1" style="color: gold;">3</td>
+                        <td width="40%" style="color: black;">王者荣耀</td>
+                        <td width="40%" align="right">161167</td>
+                        <td width="10%"
+                            style="background-image: url(img/heng.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1">4</td>
+                        <td width="40%" style="color: black;">我的世界</td>
+                        <td width="40%" align="right">127320</td>
+                        <td width="10%"
+                            style="background-image: url(img/up.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1">5</td>
+                        <td width="40%" style="color: black;">和平精英</td>
+                        <td width="40%" align="right">123379</td>
+                        <td width="10%"
+                            style="background-image: url(img/heng.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1">6</td>
+                        <td width="40%" style="color: black;">植物大战僵尸</td>
+                        <td width="40%" align="right">88496</td>
+                        <td width="10%"
+                            style="background-image: url(img/up.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1">7</td>
+                        <td width="40%" style="color: black;">迷你世界</td>
+                        <td width="40%" align="right">79547</td>
+                        <td width="10%"
+                            style="background-image: url(img/up.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1">8</td>
+                        <td width="40%" style="color: black;">光遇</td>
+                        <td width="40%" align="right">76194</td>
+                        <td width="10%"
+                            style="background-image: url(img/heng.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1">9</td>
+                        <td width="40%" style="color: black;">泰拉瑞亚</td>
+                        <td width="40%" align="right">54000</td>
+                        <td width="10%"
+                            style="background-image: url(img/up.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" class="td1">10</td>
+                        <td width="40%" style="color: black;">绝地求生</td>
+                        <td width="40%" align="right">49095</td>
+                        <td width="10%"
+                            style="background-image: url(img/up.png);background-size:80% auto;background-repeat:no-repeat;background-position:center">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="footer">本网页仅用于软工实验使用</div>
+    <!-- 引入核心代码，请不要修改 -->
+    <script src="code/index.js"></script>
+    <style>
+        #logo {
+            background-image: url('./img/logo.png');
+        }
+    </style>
 </body>
+
 </html>
